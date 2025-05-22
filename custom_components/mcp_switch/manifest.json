@@ -1,0 +1,11 @@
+{
+  "domain": "mcp_bridge",
+  "name": "MCP XiaoZhi Bridge",
+  "codeowners": ["@linrol"],
+  "config_flow": true,
+  "dependencies": [],
+  "requirements": ["mcp-proxy>=0.6.0", "websockets>=11.0.3"],
+  "version": "1.0.0",
+  "documentation": "",
+  "issue_tracker": "https://github.com/linrol/ha_mcp_xiaozhi_bridge/issues"
+}

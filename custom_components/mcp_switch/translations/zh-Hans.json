@@ -1,0 +1,33 @@
+{
+  "title": "小智的HA MCP桥接",
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置 MCP 接入点",
+        "description": "设置 小智和HA MCP的接入点配置参数",
+        "data": {
+          "xiaozhi_mcp_endpoint": "小智MCP接入点",
+          "ha_mcp_endpoint": "HA MCP 接入点",
+          "token": "HA长期令牌 (Token)"
+        }
+      }
+    },
+    "error": {
+      "unknown": "发生未知错误"
+    },
+    "abort": {
+      "single_instance_allowed": "只能添加一个 MCP 接入点实例"
+    }
+  },
+  "entity": {
+    "switch": {
+      "mcp_websocket": {
+        "name": "MCP 接入点开关",
+        "state": {
+          "on": "已连接",
+          "off": "未连接"
+        }
+      }
+    }
+  }
+}

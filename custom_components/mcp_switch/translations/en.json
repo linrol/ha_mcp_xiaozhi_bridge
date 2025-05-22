@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MCP WebSocket Control",
+        "description": "Configure MCP communication parameters.",
+        "data": {
+          "ha_mcp_endpoint": "HA MCP Script",
+          "xiaozhi_mcp_endpoint": "WebSocket Endpoint",
+          "token": "Access Token"
+        }
+      }
+    }
+  }
+}
