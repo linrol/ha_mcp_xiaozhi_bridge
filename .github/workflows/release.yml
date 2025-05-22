@@ -15,13 +15,13 @@ jobs:
 
       - name: Zip the release directory
         run: |
-          cd custom_components/uiot_home
-          zip -r ../../uiot_home.zip ./*
+          cd custom_components/mcp_bridge
+          zip -r ../../mcp_bridge.zip ./*
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
         with:
-          files: uiot_home.zip
+          files: mcp_bridge.zip
           overwrite: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
