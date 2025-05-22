@@ -11,7 +11,8 @@
 
 > 1. 确保`Home Assistant`中已安装HACS
 > 2. 打开`HACS`, 点击`[Custom repositories]`, `Repository` 输入: `https://github.com/linrol/ha_mcp_xiaozhi_bridge`, `Category` 选择 `[Integration]`
-> 3. **重启Home Assistant**.
+> 3. 搜索`MCP XiaoZhi Bridge`并下载
+> 4. **重启Home Assistant**.
 
 #### 方法 2：手动安装
 
@@ -20,7 +21,7 @@
 > 3. **重启 Home Assistant**.
 
 ### 配置
-[设置 > 设备与服务 > 添加集成] > 搜索“`Mcp Bridge`” > 下一步 > 请输入需要的配置参数，参数说明和获取如下
+[设置 > 设备与服务 > 添加集成] > 搜索“`MCP XiaoZhi Bridge`” > 下一步 > 请输入需要的配置参数，参数说明和获取如下
 
 XIAOZHI_MCP_ENDPOINT：你的小智 MCP 接入点
 HA_MCP_ENDPOINT：你的 HA MCP SERVER 地址
