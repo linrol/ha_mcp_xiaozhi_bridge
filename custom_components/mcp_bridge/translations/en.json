@@ -2,12 +2,12 @@
   "config": {
     "step": {
       "user": {
-        "title": "MCP WebSocket Control",
-        "description": "Configure MCP communication parameters.",
+        "title": "MCP Server Bridge Agent",
+        "description": "Configure MCP Agent parameters for xiaozhi.",
         "data": {
-          "ha_mcp_endpoint": "HA MCP Script",
-          "xiaozhi_mcp_endpoint": "WebSocket Endpoint",
-          "token": "Access Token"
+          "xiaozhi_mcp_endpoint": "xiaozhi MCP Endpoint",
+          "ha_mcp_endpoint": "HA MCP Endpoint",
+          "token": "HA Access Token"
         }
       }
     }
