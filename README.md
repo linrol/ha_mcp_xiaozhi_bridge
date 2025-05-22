@@ -16,10 +16,12 @@
 #### 方法 2：手动安装
 
 > 1. 从[Latest Release](https://github.com/linrol/ha_mcp_xiaozhi_bridge/releases/latest) 下载 `mcp_bridge.zip`
-> 2. 解压并复制 `uiot_home` 到 `/custom_components/`.
+> 2. 解压并复制 `mcp_bridge` 到 `/custom_components/`.
 > 3. **重启 Home Assistant**.
 
 ### 配置
+[设置 > 设备与服务 > 添加集成] > 搜索“`Mcp Bridge`” > 下一步 > 请输入需要的配置参数，参数说明和获取如下
+
 XIAOZHI_MCP_ENDPOINT：你的小智 MCP 接入点
 HA_MCP_ENDPOINT：你的 HA MCP SERVER 地址
 API_ACCESS_TOKEN：你的长效 API 令牌
