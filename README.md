@@ -1,0 +1,1 @@
+小智AI通过MCP Agent方式接入HA
